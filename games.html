@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mouse+Memoirs&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header><!--header-->
+        <nav class="header">
+            <ul>
+                <li>
+                    <a class="name-header" href="index.html">Home</a>
+                </li>
+                <li>
+                    <div class="header-line"></div>
+                </li>
+                <li>
+                    <a class="name-header" href="about.html">About</a>
+                </li>
+                <li>
+                    <div class="header-line"></div>
+                </li>
+                <li>
+                    <a class="name-header" href="games.html">Games</a>
+                </li>
+                <li>
+                    <div class="header-line"></div>
+                </li>
+                <li>
+                    <a class="name-header" href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <button class="teams-button" onclick="toggleMenu()">Team</button><!--java script in de header-->
+            <div class="dropdown" id="teamsMenu">
+                <a href="team-wanja.html">Wanja Galchitski</a>
+                <a href="team-niek.html">Niek de Heij</a>
+                <a href="team-jayden.html">Jayden van Hest</a>
+                <a href="team-silke.html">Silke Rieks</a>
+                <a href="team-sander.html">Sander Smits</a>
+                <a href="team-bryan.html">Bryan van Wissen</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="video-container">
+        <video autoplay loop muted>
+            <source src="image/trailer.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="container-video-button">
+        <img class="logo-game" src="image/Schermafbeelding-2025-02-04-091917.png" alt="Logo game">
+        <a class="buying-game"
+            href="https://steam.en.softonic.com/?utm_source=bing&utm_medium=paid&utm_campaign=Bing_EN_UK_DSA_Desktop_2&msclkid=d094a173168c10a15afdc6d037300a1e&ex=RAMP-2639.0">
+            Buy now</a>
+    </div>
+
+    <div class="bottom-box">
+        <div class="info-box">
+            <h1 class="tekst-info bold">Tokyo Tiers</h1>
+            <span class="tekst-info">In the game you start at the bottom of society, in a dark and dangerous slum. Your
+                goal? Climb up as fast and as far as possible to the futuristic upper city, where wealth and technology
+                rule. Use parkour and improvisation to climb higher. with various city levels, from industrial zones to
+                the shiny skyscrapers of the elite.</span>
+            <h2 class="tekst-info">The city is your playground, but the way up is dangerous. How far will you get? </h2>
+        </div>
+    </div>
+
+    <footer><!--Footer-->
+        <a class="footer-timefold" href="index.html">TimeFold 2025</a>
+        <a href="about.html">Business</a>
+        <a href="contact.html">Contact</a>
+    </footer>
+
+    <script src="js/script.js"></script> <!--Java Script-->
+
+</body>
+
+</html>

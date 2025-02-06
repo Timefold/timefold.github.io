@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mouse+Memoirs&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header><!--header-->
+        <nav class="header">
+            <ul>
+                <li>
+                    <a class="name-header" href="index.html">Home</a>
+                </li>
+                <li>
+                    <div class="header-line"></div>
+                </li>
+                <li>
+                    <a class="name-header" href="about.html">About</a>
+                </li>
+                <li>
+                    <div class="header-line"></div>
+                </li>
+                <li>
+                    <a class="name-header" href="games.html">Games</a>
+                </li>
+                <li>
+                    <div class="header-line"></div>
+                </li>
+                <li>
+                    <a class="name-header" href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <button class="teams-button" onclick="toggleMenu()">Team</button><!--java script in de header-->
+            <div class="dropdown" id="teamsMenu">
+                <a href="team-wanja.html">Wanja Galchitski</a>
+                <a href="team-niek.html">Niek de Heij</a>
+                <a href="team-jayden.html">Jayden van Hest</a>
+                <a href="team-silke.html">Silke Rieks</a>
+                <a href="team-sander.html">Sander Smits</a>
+                <a href="team-bryan.html">Bryan van Wissen</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="logo"><!--Body-->
+        <img class="logo-studio" src="image/Schermafbeelding-2025-02-05-113703.png" alt="Logo van onze studio">
+    </div>
+
+    <div class="intro-box">
+        <div class="intro-tekst">
+            <h1>Welcome to TimeFold</h1>
+            <h2>Games are more than just entertainment – they take you on adventures, let you discover new worlds and
+                challenge you in ways you never expected. At TimeFold we work with passion and dedication to create
+                games that stick, whether it's through compelling storylines, dynamic gameplay or stunning visuals.
+            </h2>
+            <h2>From concept to release, we strive for quality, originality and an unforgettable experience for players.
+                Whether you're a casual gamer or a die-hard fan, our games are built to challenge and inspire you. </h2>
+            <h2>Dive into our worlds and experience what gaming can really be.</h2>
+        </div>
+    </div>
+
+    <div class="merchandise">
+        <h1 class="merchandise-tekst">Merchandise</h1>
+    </div>
+
+    <div class="menu">
+        <button id="leftBtn" class="circle" onclick="changeImages()"></button>
+        <div class="images">
+            <img id="img1" src="image/Frame-5609.png" alt="Shirt 1">
+            <img id="img2" src="image/Frame-5609.png" alt="Shirt 2">
+            <img id="img3" src="image/Schermafbeelding-2025-02-04-091917.png" alt="Shirt 3">
+        </div>
+        <button id="rightBtn" class="circle" onclick="changeImages()">&gt;</button>
+    </div>
+
+    <footer><!--Footer-->
+        <a class="footer-timefold" href="index.html">TimeFold 2025</a>
+        <a href="about.html">Business</a>
+        <a href="contact.html">Contact</a>
+    </footer>
+
+    <script src="js/script.js"></script> <!--Java Script-->
+
+</body>
+
+</html>
