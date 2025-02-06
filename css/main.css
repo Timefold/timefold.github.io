@@ -293,7 +293,7 @@ span  {
 
 .tekst-about {
     width: 70vw; 
-    height: 90vh; 
+    height: fit-content; 
     border-radius: 2vw;
     margin-top: 4vw;
     background-color: #2d2d79;
