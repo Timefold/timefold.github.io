@@ -17,18 +17,18 @@ let isShirtMode = true;
 function changeImages() {
     if (isShirtMode) {
         // Verander naar truien
-        document.getElementById("img1").src = "trui1.jpg";
-        document.getElementById("img2").src = "trui2.jpg";
-        document.getElementById("img3").src = "trui3.jpg";
+        document.getElementById("image/fotos gamejam/100MSDCF/DSC00018.JPG").src = "trui1.jpg";
+        document.getElementById("image/fotos gamejam/100MSDCF/DSC00011.JPG").src = "trui2.jpg";
+        document.getElementById("image/fotos gamejam/100MSDCF/DSC00023.JPG").src = "trui3.jpg";
         
         // Verplaats pijl naar links
         document.getElementById("leftBtn").innerText = "<";
         document.getElementById("rightBtn").innerText = "";
     } else {
         // Verander naar shirts
-        document.getElementById("img1").src = "shirt1.jpg";
-        document.getElementById("img2").src = "shirt2.jpg";
-        document.getElementById("img3").src = "shirt3.jpg";
+        document.getElementById("image/fotos gamejam/100MSDCF/DSC00026.JPG").src = "shirt1.jpg";
+        document.getElementById("image/fotos gamejam/DSC00035.JPG").src = "shirt2.jpg";
+        document.getElementById("image/fotos gamejam/DSC00027.JPG").src = "shirt3.jpg";
         
         // Verplaats pijl naar rechts
         document.getElementById("leftBtn").innerText = "";
@@ -37,7 +37,6 @@ function changeImages() {
 
     isShirtMode = !isShirtMode;
 }
-
 
 // document.addEventListener("DOMContentLoaded", function() {
 //     const videoContainer = document.getElementById("videoContainer");

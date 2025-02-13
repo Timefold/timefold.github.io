@@ -509,6 +509,12 @@ video {
     border: solid 0.2vw #000;
 }
 
+.image-photo {
+    width: fit-content;
+    height: 37vw;
+    border-radius: 50vw;
+}
+
 .tekst-prive {
     font-size: 3.5vw;
     margin: 5vw;
