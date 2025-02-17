@@ -501,18 +501,11 @@ video {
     margin-left: 5vw;
 }
 
-.photo {
-    width: 24vw;
-    height: 24vw;
-    border-radius: 50vw;
-    background-color: white;
-    border: solid 0.2vw #000;
-}
-
 .image-photo {
     width: fit-content;
     height: 37vw;
     border-radius: 50vw;
+    border: solid 0.2vw #000;
 }
 
 .tekst-prive {

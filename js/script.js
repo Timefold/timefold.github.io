@@ -31,9 +31,6 @@ function changeImages() {
         // Pijl aanpassen
         document.getElementById("leftBtn").innerText = "";
         document.getElementById("rightBtn").innerText = ">";
-
-        document.getElementById("leftBtn").addEventListener("click", changeImages);
-        document.getElementById("rightBtn").addEventListener("click", changeImages);
     }
     
     isShirtMode = !isShirtMode;
